@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ControlDespensaApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ControlDespensaApiApplication.class, args);
-    }
 
+        SpringApplication.run(
+                ControlDespensaApiApplication.class,
+                args);
+    }
 }
